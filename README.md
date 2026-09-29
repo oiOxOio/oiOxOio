@@ -11,7 +11,7 @@
 
 <!-- 统计 -->
 <div align="center">
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=oiOxOio&theme=holi)
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=oiOxOio&theme=holi" />
 </div>
 
 
