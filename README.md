@@ -8,6 +8,11 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=oiOxOio&theme=default" />
 </div>
 
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=oiOxOio&theme=default" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=oiOxOio&theme=default&utcOffset=0" />
+</div>
+
 <!-- snake -->
 <div align="center">
   <img src="resource/github-contribution-grid-snake.svg" />
