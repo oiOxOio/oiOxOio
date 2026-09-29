@@ -1,39 +1,49 @@
 name: generate snake animation
 
 on:
-  # run automatically every 6 hours
+  # Refresh the contribution graph every 8 hours (UTC).
   schedule:
-    - cron: "0 */8 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "0 */8 * * *"
   workflow_dispatch:
-  
-  # run on every push on the master branch
   push:
-    branches:
-    - main
-    
-  
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-animation
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v2
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: peaceiris/actions-gh-pages@v3.7.3
-        with:
-          publish_branch: main
-          destination_dir: resource
-          publish_dir: dist
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          
+            resource/github-contribution-grid-snake.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated animation
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- resource/github-contribution-grid-snake.svg
+          if git diff --cached --quiet; then
+            echo "The contribution animation is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: update contribution snake"
+          git pull --rebase origin main
+          git push origin HEAD:main
