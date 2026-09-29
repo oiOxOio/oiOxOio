@@ -10,7 +10,7 @@
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=oiOxOio&theme=default" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=oiOxOio&theme=default&utcOffset=0" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=oiOxOio&theme=default&utcOffset=8" />
 </div>
 
 <!-- snake -->
