@@ -4,9 +4,9 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
-  # Bot commits do not trigger push workflows, so deploy after the snake refresh.
+  # Bot commits do not trigger push workflows, so deploy after the profile refresh.
   workflow_run:
-    workflows: ["generate snake animation"]
+    workflows: ["Update profile assets"]
     types: [completed]
     branches: ["main"]
 
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          # Include the image commit created by the completed snake workflow.
+          # Include the image commit created by the completed profile workflow.
           ref: main
       - name: Setup Pages
         uses: actions/configure-pages@v6
