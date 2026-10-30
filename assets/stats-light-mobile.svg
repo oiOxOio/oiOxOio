@@ -50,12 +50,12 @@
 <circle cx="27" cy="435" r="3" fill="#8b98aa"/>
 <text x="37" y="439" class="sans" font-size="11" font-weight="400" fill="#586980" >Other 3.4%</text>
 </g>
-<text x="24" y="493" class="mono" font-size="11" font-weight="400" fill="#087ea4" letter-spacing="1.4">IN THE OPEN</text>
-<text x="24" y="522" class="mono" font-size="12" font-weight="400" fill="#1f2937" >codex-plugins</text>
-<text x="396" y="522" class="sans" font-size="10.5" font-weight="400" fill="#697b91" text-anchor="end">JavaScript  ·  0 ★</text>
-<text x="24" y="550" class="mono" font-size="12" font-weight="400" fill="#1f2937" >Smart-Album</text>
-<text x="396" y="550" class="sans" font-size="10.5" font-weight="400" fill="#697b91" text-anchor="end">JavaScript  ·  11 ★</text>
-<text x="24" y="578" class="mono" font-size="12" font-weight="400" fill="#1f2937" >museum</text>
-<text x="396" y="578" class="sans" font-size="10.5" font-weight="400" fill="#697b91" text-anchor="end">HTML  ·  0 ★</text>
+<text x="24" y="493" class="mono" font-size="11" font-weight="400" fill="#087ea4" letter-spacing="1.4">WORKING PRINCIPLES</text>
+<text x="24" y="522" class="mono" font-size="10" font-weight="400" fill="#087ea4" >01</text>
+<text x="54" y="522" class="sans" font-size="13" font-weight="400" fill="#586980" >保持好奇，持续学习。</text>
+<text x="24" y="550" class="mono" font-size="10" font-weight="400" fill="#087ea4" >02</text>
+<text x="54" y="550" class="sans" font-size="13" font-weight="400" fill="#586980" >关注体验，也关注实现。</text>
+<text x="24" y="578" class="mono" font-size="10" font-weight="400" fill="#087ea4" >03</text>
+<text x="54" y="578" class="sans" font-size="13" font-weight="400" fill="#586980" >把代码写清楚，把系统维护好。</text>
 <text x="396" y="623" class="mono" font-size="9" font-weight="400" fill="#697b91" text-anchor="end">UPDATED 2026-10-30</text>
 </svg>

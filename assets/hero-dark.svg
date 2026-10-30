@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="298" viewBox="0 0 880 298" role="img" aria-labelledby="title desc">
 <title id="title">oiOxOio · 全栈开发</title>
-<desc id="desc">把复杂业务做清楚，把想法做成能用的产品。业务系统 · 制造业数字化 · Web 3D · 开发工具</desc>
+<desc id="desc">把想法写成代码，让体验持续变好。前端开发 · 后端开发 · 工程实践 · 持续学习</desc>
 <defs><style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",monospace}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.2s step-end infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="0.7" fill="#253342"/></pattern><linearGradient id="accent"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient></defs>
 <rect x="0.5" y="0.5" width="879" height="297" rx="18" fill="#0d1117" stroke="#283341" />
 <rect x="1" y="1" width="99.7%" height="99.3%" rx="18" fill="url(#dots)"/>
@@ -9,16 +9,16 @@
 <text x="308" y="109" class="mono" font-size="12" font-weight="400" fill="#9aaabd" >Why.Ping</text>
 <rect x="36" y="128" width="65" height="3" rx="1.5" fill="url(#accent)" stroke="none" />
 <text x="36" y="166" class="sans" font-size="21" font-weight="600" fill="#e6edf3" >Full-stack Developer</text>
-<text x="36" y="197" class="sans" font-size="15" font-weight="400" fill="#9aaabd" >把复杂业务做清楚，把想法做成能用的产品。</text>
-<text x="36" y="224" class="sans" font-size="12.5" font-weight="400" fill="#7d8da1" >业务系统 · 制造业数字化 · Web 3D · 开发工具</text>
+<text x="36" y="197" class="sans" font-size="15" font-weight="400" fill="#9aaabd" >把想法写成代码，让体验持续变好。</text>
+<text x="36" y="224" class="sans" font-size="12.5" font-weight="400" fill="#7d8da1" >前端开发 · 后端开发 · 工程实践 · 持续学习</text>
 <rect x="36" y="246" width="49" height="25" rx="12.5" fill="#192331" stroke="#283341" />
 <text x="47" y="262.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Java</text>
 <rect x="93" y="246" width="97" height="25" rx="12.5" fill="#192331" stroke="#283341" />
 <text x="104" y="262.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Spring Boot</text>
 <rect x="198" y="246" width="90" height="25" rx="12.5" fill="#192331" stroke="#283341" />
 <text x="209" y="262.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >PostgreSQL</text>
-<rect x="296" y="246" width="77" height="25" rx="12.5" fill="#192331" stroke="#283341" />
-<text x="307" y="262.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Three.js</text>
+<rect x="296" y="246" width="90" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="307" y="262.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >JavaScript</text>
 <rect x="524" y="39" width="320" height="220" rx="13" fill="#121923" stroke="#283341" />
 <circle cx="543" cy="59" r="4.2" fill="#ff6058"/>
 <circle cx="558" cy="59" r="4.2" fill="#febc2e"/>
@@ -27,7 +27,7 @@
 <text x="546" y="90" class="mono" font-size="12.2" font-weight="400" fill="#7dd3fc" >$ whoami</text>
 <text x="546" y="116" class="mono" font-size="12.2" font-weight="400" fill="#e6edf3" >  full-stack developer</text>
 <text x="546" y="142" class="mono" font-size="12.2" font-weight="400" fill="#7dd3fc" >$ cat focus.txt</text>
-<text x="546" y="168" class="mono" font-size="12.2" font-weight="400" fill="#9aaabd" >  rules / data / web 3d</text>
+<text x="546" y="168" class="mono" font-size="12.2" font-weight="400" fill="#9aaabd" >  frontend / backend / tools</text>
 <text x="546" y="194" class="mono" font-size="12.2" font-weight="400" fill="#7dd3fc" >$ status</text>
 <text x="546" y="220" class="mono" font-size="12.2" font-weight="400" fill="#9aaabd" >  building + learning</text>
 <rect x="705" y="210" width="7" height="13" rx="0" fill="#7dd3fc" stroke="none" class="cursor"/>

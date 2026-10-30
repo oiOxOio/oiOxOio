@@ -2,35 +2,35 @@
   "username": "oiOxOio",
   "display_name": "Why.Ping",
   "role": "Full-stack Developer",
-  "tagline": "把复杂业务做清楚，把想法做成能用的产品。",
-  "intro": "业务系统 · 制造业数字化 · Web 3D · 开发工具",
-  "hero_tags": ["Java", "Spring Boot", "PostgreSQL", "Three.js"],
+  "tagline": "把想法写成代码，让体验持续变好。",
+  "intro": "前端开发 · 后端开发 · 工程实践 · 持续学习",
+  "terminal_focus": "frontend / backend / tools",
+  "hero_tags": ["Java", "Spring Boot", "PostgreSQL", "JavaScript"],
   "focus": [
     {
-      "title": "规则引擎 & CPQ",
-      "status": "正在推进",
-      "lines": ["围绕 dx-cloud 规则引擎，探索非标模架", "报价、参数配置与价格计算。"]
+      "title": "前端开发",
+      "status": "界面与交互",
+      "lines": ["关注清晰的界面与自然的交互，", "重视响应式布局、性能和使用体验。"]
     },
     {
-      "title": "数据平台 & 服务端",
-      "status": "持续建设",
-      "lines": ["关注结构化数据、版本记录与服务边界，", "让业务规则可维护，执行过程可追溯。"]
+      "title": "后端开发",
+      "status": "接口与数据",
+      "lines": ["围绕接口、数据与服务组织代码，", "兼顾稳定性、扩展性和可维护性。"]
     },
     {
-      "title": "Web 3D & 互动体验",
-      "status": "持续打磨",
-      "lines": ["抽陀螺 Web 3D：交互反馈、光影材质，", "以及移动端性能与加载体验。"]
+      "title": "工程实践",
+      "status": "质量与交付",
+      "lines": ["重视代码结构、版本管理与自动化，", "让开发、部署和维护更顺畅。"]
     },
     {
-      "title": "AI 工具 & 可视化",
-      "status": "探索实践",
-      "lines": ["维护 Codex 插件，探索 CAD / CNC / EIA", "刀路可视化与自动化开发流程。"]
+      "title": "持续学习",
+      "status": "探索与实践",
+      "lines": ["保持对新技术与开发工具的好奇，", "在实践中验证，持续改进工作方式。"]
     }
   ],
   "stack": [
     {"label": "BACKEND", "items": ["Java", "Spring Boot", "PostgreSQL"]},
-    {"label": "WEB / DELIVERY", "items": ["JavaScript", "Three.js", "Docker", "Cloudflare"]}
+    {"label": "WEB / TOOLING", "items": ["JavaScript", "HTML / CSS", "Docker", "Git"]}
   ],
-  "principles": ["先理清业务，再设计系统。", "重视体验、性能和可维护性。", "让工具解决实际问题。"],
-  "featured_repositories": ["codex-plugins", "Smart-Album", "museum"]
+  "principles": ["保持好奇，持续学习。", "关注体验，也关注实现。", "把代码写清楚，把系统维护好。"]
 }

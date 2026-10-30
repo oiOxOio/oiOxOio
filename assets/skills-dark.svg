@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="448" viewBox="0 0 880 448" role="img" aria-labelledby="title desc">
-<title id="title">正在建设与探索的方向</title>
-<desc id="desc">规则引擎 &amp; CPQ：围绕 dx-cloud 规则引擎，探索非标模架报价、参数配置与价格计算。；数据平台 &amp; 服务端：关注结构化数据、版本记录与服务边界，让业务规则可维护，执行过程可追溯。；Web 3D &amp; 互动体验：抽陀螺 Web 3D：交互反馈、光影材质，以及移动端性能与加载体验。；AI 工具 &amp; 可视化：维护 Codex 插件，探索 CAD / CNC / EIA刀路可视化与自动化开发流程。</desc>
+<title id="title">技术方向与开发习惯</title>
+<desc id="desc">前端开发：关注清晰的界面与自然的交互，重视响应式布局、性能和使用体验。；后端开发：围绕接口、数据与服务组织代码，兼顾稳定性、扩展性和可维护性。；工程实践：重视代码结构、版本管理与自动化，让开发、部署和维护更顺畅。；持续学习：保持对新技术与开发工具的好奇，在实践中验证，持续改进工作方式。</desc>
 <defs><style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",monospace}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.2s step-end infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style></defs>
 <rect x="0.5" y="0.5" width="879" height="447" rx="18" fill="#0d1117" stroke="#283341" />
-<text x="32" y="40" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">WHAT I BUILD</text>
-<text x="848" y="40" class="mono" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">SYSTEMS / TOOLS / EXPERIENCES</text>
+<text x="32" y="40" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">FOCUS &amp; PRACTICE</text>
+<text x="848" y="40" class="mono" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">BUILD / LEARN / IMPROVE</text>
 <rect x="32" y="63" width="400" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="48" y="88" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >01</text>
-<text x="416" y="88" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">正在推进</text>
-<text x="48" y="116" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >规则引擎 &amp; CPQ</text>
-<text x="48" y="141" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >围绕 dx-cloud 规则引擎，探索非标模架</text>
-<text x="48" y="162" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >报价、参数配置与价格计算。</text>
+<text x="416" y="88" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">界面与交互</text>
+<text x="48" y="116" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >前端开发</text>
+<text x="48" y="141" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >关注清晰的界面与自然的交互，</text>
+<text x="48" y="162" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >重视响应式布局、性能和使用体验。</text>
 <rect x="448" y="63" width="400" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="464" y="88" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >02</text>
-<text x="832" y="88" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">持续建设</text>
-<text x="464" y="116" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >数据平台 &amp; 服务端</text>
-<text x="464" y="141" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >关注结构化数据、版本记录与服务边界，</text>
-<text x="464" y="162" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >让业务规则可维护，执行过程可追溯。</text>
+<text x="832" y="88" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">接口与数据</text>
+<text x="464" y="116" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >后端开发</text>
+<text x="464" y="141" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >围绕接口、数据与服务组织代码，</text>
+<text x="464" y="162" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >兼顾稳定性、扩展性和可维护性。</text>
 <rect x="32" y="195" width="400" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="48" y="220" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >03</text>
-<text x="416" y="220" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">持续打磨</text>
-<text x="48" y="248" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >Web 3D &amp; 互动体验</text>
-<text x="48" y="273" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >抽陀螺 Web 3D：交互反馈、光影材质，</text>
-<text x="48" y="294" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >以及移动端性能与加载体验。</text>
+<text x="416" y="220" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">质量与交付</text>
+<text x="48" y="248" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >工程实践</text>
+<text x="48" y="273" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >重视代码结构、版本管理与自动化，</text>
+<text x="48" y="294" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >让开发、部署和维护更顺畅。</text>
 <rect x="448" y="195" width="400" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="464" y="220" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >04</text>
-<text x="832" y="220" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">探索实践</text>
-<text x="464" y="248" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >AI 工具 &amp; 可视化</text>
-<text x="464" y="273" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >维护 Codex 插件，探索 CAD / CNC / EIA</text>
-<text x="464" y="294" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >刀路可视化与自动化开发流程。</text>
+<text x="832" y="220" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">探索与实践</text>
+<text x="464" y="248" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >持续学习</text>
+<text x="464" y="273" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >保持对新技术与开发工具的好奇，</text>
+<text x="464" y="294" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >在实践中验证，持续改进工作方式。</text>
 <path d="M32 323H848" fill="none" stroke="#283341"/>
 <text x="32" y="355" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">BACKEND</text>
 <rect x="187" y="338" width="49" height="25" rx="12.5" fill="#192331" stroke="#283341" />
@@ -37,13 +37,13 @@
 <text x="255" y="354.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Spring Boot</text>
 <rect x="349" y="338" width="90" height="25" rx="12.5" fill="#192331" stroke="#283341" />
 <text x="360" y="354.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >PostgreSQL</text>
-<text x="32" y="398" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">WEB / DELIVERY</text>
+<text x="32" y="398" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">WEB / TOOLING</text>
 <rect x="187" y="381" width="90" height="25" rx="12.5" fill="#192331" stroke="#283341" />
 <text x="198" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >JavaScript</text>
-<rect x="285" y="381" width="77" height="25" rx="12.5" fill="#192331" stroke="#283341" />
-<text x="296" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Three.js</text>
-<rect x="370" y="381" width="63" height="25" rx="12.5" fill="#192331" stroke="#283341" />
-<text x="381" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Docker</text>
-<rect x="441" y="381" width="90" height="25" rx="12.5" fill="#192331" stroke="#283341" />
-<text x="452" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Cloudflare</text>
+<rect x="285" y="381" width="90" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="296" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >HTML / CSS</text>
+<rect x="383" y="381" width="63" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="394" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Docker</text>
+<rect x="454" y="381" width="42" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="465" y="397.35" class="mono" font-size="11" font-weight="400" fill="#9aaabd" >Git</text>
 </svg>

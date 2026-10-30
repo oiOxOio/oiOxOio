@@ -100,7 +100,7 @@ def hero(profile, p, mobile=False):
         body.append(f'<circle cx="{tx+19+15*i}" cy="{ty+20}" r="4.2" fill="{color}"/>')
     body.append(text(tx+tw-17, ty+24, "~/"+profile["username"], 10.5, p["quiet"], mono=True, text_anchor="end"))
     terminal = [("$ whoami", p["accent"]), ("  full-stack developer", p["text"]),
-                ("$ cat focus.txt", p["accent"]), ("  rules / data / web 3d", p["muted"]),
+                ("$ cat focus.txt", p["accent"]), ("  "+profile["terminal_focus"], p["muted"]),
                 ("$ status", p["accent"]), ("  building + learning", p["muted"])]
     step = 21 if mobile else 26
     for i, (value, color) in enumerate(terminal):
@@ -116,9 +116,9 @@ def hero(profile, p, mobile=False):
 def skills(profile, p, mobile=False):
     width, height = (420, 758) if mobile else (880, 448)
     margin = 24 if mobile else 32
-    body = [label(margin, 37 if mobile else 40, "WHAT I BUILD", p)]
+    body = [label(margin, 37 if mobile else 40, "FOCUS & PRACTICE", p)]
     if not mobile:
-        body.append(text(848, 40, "SYSTEMS / TOOLS / EXPERIENCES", 10.5, p["quiet"], mono=True, text_anchor="end"))
+        body.append(text(848, 40, "BUILD / LEARN / IMPROVE", 10.5, p["quiet"], mono=True, text_anchor="end"))
     for i, focus in enumerate(profile["focus"]):
         x = margin if mobile else margin+(i%2)*416
         y = 59+i*135 if mobile else 63+(i//2)*132
@@ -140,7 +140,7 @@ def skills(profile, p, mobile=False):
             body.append(label(margin, gy+10, group["label"], p))
             body += pills(group["items"], 187, gy-7, p, 11)
     description = "；".join(f["title"]+"："+"".join(f["lines"]) for f in profile["focus"])
-    return document(width, height, "正在建设与探索的方向", description, body, p)
+    return document(width, height, "技术方向与开发习惯", description, body, p)
 
 
 def contributions(profile, p, source):
@@ -244,20 +244,14 @@ def statistics(profile, stats, p, mobile=False):
             body.append(text(lx+13, ly, f'{short_name} {row["percent"]:.1f}%', 11, p["muted"]))
             body.append('</g>')
     else:
-        body.append(label(margin, divy+29, "HOW I LIKE TO BUILD", p))
-        for i, principle in enumerate(profile["principles"]):
-            body += [text(margin, divy+58+26*i, "0"+str(i+1), 10, p["accent"], mono=True),
-                     text(margin+30, divy+58+26*i, principle, 13, p["muted"])]
+        body.append(label(margin, divy+29, "LANGUAGES", p))
+        body.append(text(margin, divy+58, "语言数据暂未提供。", 13, p["muted"]))
     px, py = (margin, 493) if mobile else (464, divy+29)
-    body.append(label(px, py, "IN THE OPEN", p))
-    projects = {item["name"]: item for item in stats["projects"]}
-    for i, name in enumerate(profile["featured_repositories"]):
-        project = projects.get(name)
-        if project is None:
-            continue
+    body.append(label(px, py, "WORKING PRINCIPLES", p))
+    for i, principle in enumerate(profile["principles"]):
         yy = py+29+i*28
-        body += [text(px, yy, name, 12, p["text"], mono=True),
-                 text(width-margin, yy, (project.get("language") or "—")+f'  ·  {project["stars"]} ★', 10.5, p["quiet"], text_anchor="end")]
+        body += [text(px, yy, "0"+str(i+1), 10, p["accent"], mono=True),
+                 text(px+30, yy, principle, 13, p["muted"])]
     if mobile:
         body.append(text(width-margin, height-17, "UPDATED "+date, 9, p["quiet"], mono=True, text_anchor="end"))
     else:
