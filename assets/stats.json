@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "username": "oiOxOio",
-  "updated_at": "2026-10-30T11:18:02Z",
+  "updated_at": "2026-10-30T11:25:56Z",
   "source": "GitHub REST API",
   "scope": {
     "repositories": "Owned public non-fork repositories, including the profile repository",
@@ -14,8 +14,44 @@
   "stars": 12,
   "pull_requests": 9,
   "merged_pull_requests": 8,
-  "languages_status": "pending_refresh",
-  "languages": [],
+  "languages_status": "complete",
+  "languages": [
+    {
+      "name": "CSS",
+      "bytes": 734963,
+      "color": "#563d7c"
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 634494,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Java",
+      "bytes": 382852,
+      "color": "#b07219"
+    },
+    {
+      "name": "HTML",
+      "bytes": 243116,
+      "color": "#e34c26"
+    },
+    {
+      "name": "Python",
+      "bytes": 62395,
+      "color": "#3572a5"
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 5294,
+      "color": "#8b949e"
+    },
+    {
+      "name": "Shell",
+      "bytes": 2223,
+      "color": "#89e051"
+    }
+  ],
   "projects": [
     {
       "name": "Smart-Album",
@@ -56,7 +92,7 @@
       "name": "oiOxOio",
       "url": "https://github.com/oiOxOio/oiOxOio",
       "description": "",
-      "language": null,
+      "language": "Python",
       "stars": 0
     },
     {
