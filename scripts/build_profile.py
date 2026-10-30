@@ -86,8 +86,8 @@ def hero(profile, p, mobile=False):
     x = 26 if mobile else 36
     body = ['<rect x="1" y="1" width="99.7%" height="99.3%" rx="18" fill="url(#dots)"/>']
     body += [label(x, 45 if mobile else 51, "HELLO, I'M", p),
-             text(x, 95 if mobile else 111, profile["username"], 44 if mobile else 52, p["text"], 700),
-             text(x+228 if mobile else x+272, 94 if mobile else 109, profile["display_name"], 12, p["muted"], mono=True),
+             text(x, 95 if mobile else 111, profile["display_name"], 44 if mobile else 52, p["text"], 700),
+             text(x+258 if mobile else x+300, 94 if mobile else 109, profile["username"], 12, p["muted"], mono=True),
              rect(x, 109 if mobile else 128, 65, 3, "url(#accent)", radius=1.5),
              text(x, 144 if mobile else 166, profile["role"], 21, p["text"], 600),
              text(x, 175 if mobile else 197, profile["tagline"], 14 if mobile else 15, p["muted"])]
@@ -110,13 +110,13 @@ def hero(profile, p, mobile=False):
             f'<circle cx="10" cy="10" r="0.7" fill="{p["grid"]}"/></pattern>'
             f'<linearGradient id="accent"><stop stop-color="{p["accent"]}"/>'
             f'<stop offset="1" stop-color="{p["purple"]}"/></linearGradient>')
-    return document(width, height, profile["username"]+" · 全栈开发", profile["tagline"]+profile["intro"], body, p, defs)
+    return document(width, height, profile["display_name"]+" ("+profile["username"]+") · 全栈开发", profile["tagline"]+profile["intro"], body, p, defs)
 
 
 def skills(profile, p, mobile=False):
     width = 420 if mobile else 880
     row_step = 61 if mobile else 43
-    height = (758 if mobile else 448) + max(0, len(profile["stack"])-2)*row_step
+    height = (738 if mobile else 428) + max(0, len(profile["stack"])-2)*row_step
     margin = 24 if mobile else 32
     body = [label(margin, 37 if mobile else 40, "FOCUS & PRACTICE", p)]
     if not mobile:
@@ -141,10 +141,8 @@ def skills(profile, p, mobile=False):
         else:
             body.append(label(margin, gy+10, group["label"], p))
             body += pills(group["items"], 187, gy-7, p, 11)
-    body.append(text(margin, height-19, "AI 偏好："+profile["ai_preference"], 11, p["muted"]))
     description = "；".join(f["title"]+"："+"".join(f["lines"]) for f in profile["focus"])
-    description += "。技术选择："+"；".join(" / ".join(group["items"]) for group in profile["stack"])
-    description += "。AI 偏好："+profile["ai_preference"]
+    description += "。技术选择："+"；".join(group["label"]+"："+" / ".join(group["items"]) for group in profile["stack"])
     return document(width, height, "技术方向与开发习惯", description, body, p)
 
 

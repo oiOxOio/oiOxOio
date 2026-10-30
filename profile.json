@@ -32,8 +32,7 @@
     {"label": "BACKEND", "items": ["Java", "Spring Boot", "PostgreSQL"]},
     {"label": "FRONTEND", "items": ["Vue", "shadcn"]},
     {"label": "INFRASTRUCTURE", "items": ["Kubernetes", "Docker"]},
-    {"label": "AI / WORKFLOW", "items": ["ChatGPT", "Codex"]}
+    {"label": "AI TOOLS", "items": ["ChatGPT", "Codex"]}
   ],
-  "ai_preference": "目标清晰、上下文充分、结果可验证",
   "principles": ["保持好奇，持续学习。", "关注体验，也关注实现。", "把代码写清楚，把系统维护好。"]
 }
