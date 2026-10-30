@@ -4,7 +4,7 @@
 
 ## 修改介绍
 
-编辑 `profile.json` 中的昵称、介绍、技术方向、技术标签和开发理念，然后同步更新 `README.md` 的文字版介绍与图片替代文本。发布前运行：
+编辑 `profile.json` 中的昵称、介绍、技术方向、技术标签、AI 偏好和开发理念，然后同步更新 `README.md` 的文字版介绍与图片替代文本。技术标签卡片高度会根据分组数量调整。个人博客入口为 https://whp.plus，在 README 的介绍卡片下方维护。发布前运行：
 
 ```bash
 python scripts/build_profile.py
@@ -16,6 +16,8 @@ python scripts/build_profile.py --check
 ## 简介内容范围
 
 简介保持通用，围绕全栈开发、技术方向、工程习惯和持续学习展开。不加入公司业务、内部系统、客户信息或具体业务流程；不把随手做的 demo、练习或实验写成主攻方向与代表项目。主页不设置精选项目栏目，公开仓库通过统一入口浏览。
+
+技术偏好突出实际选择的框架、平台与工具，不罗列 JavaScript、HTML/CSS、Git 等基础项。Vue、shadcn、Kubernetes（K8s）和 AI 协作单独展示；AI 工具以已确认使用的 ChatGPT、Codex 为准。公开代码语言统计按真实数据保留，与技术偏好标签分开解释。
 
 ## 自动刷新
 

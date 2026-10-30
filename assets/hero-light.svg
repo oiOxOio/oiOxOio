@@ -11,14 +11,14 @@
 <text x="36" y="166" class="sans" font-size="21" font-weight="600" fill="#1f2937" >Full-stack Developer</text>
 <text x="36" y="197" class="sans" font-size="15" font-weight="400" fill="#586980" >把想法写成代码，让体验持续变好。</text>
 <text x="36" y="224" class="sans" font-size="12.5" font-weight="400" fill="#697b91" >前端开发 · 后端开发 · 工程实践 · 持续学习</text>
-<rect x="36" y="246" width="49" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
-<text x="47" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >Java</text>
-<rect x="93" y="246" width="97" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
-<text x="104" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >Spring Boot</text>
-<rect x="198" y="246" width="90" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
-<text x="209" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >PostgreSQL</text>
-<rect x="296" y="246" width="90" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
-<text x="307" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >JavaScript</text>
+<rect x="36" y="246" width="97" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
+<text x="47" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >Spring Boot</text>
+<rect x="141" y="246" width="42" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
+<text x="152" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >Vue</text>
+<rect x="191" y="246" width="90" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
+<text x="202" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >Kubernetes</text>
+<rect x="289" y="246" width="56" height="25" rx="12.5" fill="#edf2f8" stroke="#dce4ee" />
+<text x="300" y="262.35" class="mono" font-size="11" font-weight="400" fill="#586980" >Codex</text>
 <rect x="524" y="39" width="320" height="220" rx="13" fill="#f6f8fc" stroke="#dce4ee" />
 <circle cx="543" cy="59" r="4.2" fill="#ff6058"/>
 <circle cx="558" cy="59" r="4.2" fill="#febc2e"/>

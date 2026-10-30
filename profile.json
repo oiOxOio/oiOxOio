@@ -5,7 +5,7 @@
   "tagline": "把想法写成代码，让体验持续变好。",
   "intro": "前端开发 · 后端开发 · 工程实践 · 持续学习",
   "terminal_focus": "frontend / backend / tools",
-  "hero_tags": ["Java", "Spring Boot", "PostgreSQL", "JavaScript"],
+  "hero_tags": ["Spring Boot", "Vue", "Kubernetes", "Codex"],
   "focus": [
     {
       "title": "前端开发",
@@ -30,7 +30,10 @@
   ],
   "stack": [
     {"label": "BACKEND", "items": ["Java", "Spring Boot", "PostgreSQL"]},
-    {"label": "WEB / TOOLING", "items": ["JavaScript", "HTML / CSS", "Docker", "Git"]}
+    {"label": "FRONTEND", "items": ["Vue", "shadcn"]},
+    {"label": "INFRASTRUCTURE", "items": ["Kubernetes", "Docker"]},
+    {"label": "AI / WORKFLOW", "items": ["ChatGPT", "Codex"]}
   ],
+  "ai_preference": "目标清晰、上下文充分、结果可验证",
   "principles": ["保持好奇，持续学习。", "关注体验，也关注实现。", "把代码写清楚，把系统维护好。"]
 }

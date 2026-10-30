@@ -114,7 +114,9 @@ def hero(profile, p, mobile=False):
 
 
 def skills(profile, p, mobile=False):
-    width, height = (420, 758) if mobile else (880, 448)
+    width = 420 if mobile else 880
+    row_step = 61 if mobile else 43
+    height = (758 if mobile else 448) + max(0, len(profile["stack"])-2)*row_step
     margin = 24 if mobile else 32
     body = [label(margin, 37 if mobile else 40, "FOCUS & PRACTICE", p)]
     if not mobile:
@@ -132,14 +134,17 @@ def skills(profile, p, mobile=False):
     sy = 617 if mobile else 345
     body.append(line(margin, sy-22, width-margin, sy-22, p))
     for i, group in enumerate(profile["stack"]):
-        gy = sy+i*61 if mobile else sy+i*43
+        gy = sy+i*row_step
         if mobile:
             body.append(label(margin, gy, group["label"], p))
             body += pills(group["items"], margin, gy+12, p, 10.5)
         else:
             body.append(label(margin, gy+10, group["label"], p))
             body += pills(group["items"], 187, gy-7, p, 11)
+    body.append(text(margin, height-19, "AI 偏好："+profile["ai_preference"], 11, p["muted"]))
     description = "；".join(f["title"]+"："+"".join(f["lines"]) for f in profile["focus"])
+    description += "。技术选择："+"；".join(" / ".join(group["items"]) for group in profile["stack"])
+    description += "。AI 偏好："+profile["ai_preference"]
     return document(width, height, "技术方向与开发习惯", description, body, p)
 
 
