@@ -25,11 +25,11 @@
 <text x="24" y="355" class="sans" font-size="10.5" font-weight="400" fill="#697b91" >公开非 Fork 仓库 · 按代码字节统计</text>
 <rect x="24" y="369" width="372" height="7" rx="3.5" fill="#edf2f8" stroke="none" />
 <clipPath id="lang-clip"><rect x="24" y="369" width="372" height="7" rx="3.5"/></clipPath>
-<rect x="24" y="369" width="132.403" height="7" rx="0" fill="#563d7c" stroke="none" clip-path="url(#lang-clip)"/>
-<rect x="156.403" y="369" width="114.303" height="7" rx="0" fill="#f1e05a" stroke="none" clip-path="url(#lang-clip)"/>
-<rect x="270.706" y="369" width="68.97" height="7" rx="0" fill="#b07219" stroke="none" clip-path="url(#lang-clip)"/>
-<rect x="339.676" y="369" width="43.797" height="7" rx="0" fill="#e34c26" stroke="none" clip-path="url(#lang-clip)"/>
-<rect x="383.474" y="369" width="12.526" height="7" rx="0" fill="#8b98aa" stroke="none" clip-path="url(#lang-clip)"/>
+<rect x="24" y="369" width="132.38" height="7" rx="0" fill="#563d7c" stroke="none" clip-path="url(#lang-clip)"/>
+<rect x="156.38" y="369" width="114.284" height="7" rx="0" fill="#f1e05a" stroke="none" clip-path="url(#lang-clip)"/>
+<rect x="270.665" y="369" width="68.959" height="7" rx="0" fill="#b07219" stroke="none" clip-path="url(#lang-clip)"/>
+<rect x="339.623" y="369" width="43.79" height="7" rx="0" fill="#e34c26" stroke="none" clip-path="url(#lang-clip)"/>
+<rect x="383.413" y="369" width="12.587" height="7" rx="0" fill="#8b98aa" stroke="none" clip-path="url(#lang-clip)"/>
 <g><title>CSS 35.6%</title>
 <circle cx="27" cy="393" r="3" fill="#563d7c"/>
 <text x="37" y="397" class="sans" font-size="11" font-weight="400" fill="#586980" >CSS 35.6%</text>
