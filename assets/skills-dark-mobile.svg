@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="860" viewBox="0 0 420 860" role="img" aria-labelledby="title desc">
 <title id="title">技术方向与开发习惯</title>
-<desc id="desc">前端开发：关注清晰的界面与自然的交互，重视响应式布局、性能和使用体验。；后端开发：围绕接口、数据与服务组织代码，兼顾稳定性、扩展性和可维护性。；工程实践：重视代码结构、版本管理与自动化，让开发、部署和维护更顺畅。；持续学习：保持对新技术与开发工具的好奇，在实践中验证，持续改进工作方式。。技术选择：BACKEND：Java / Spring Boot / PostgreSQL；FRONTEND：Vue / shadcn；INFRASTRUCTURE：Kubernetes / Docker；AI TOOLS：ChatGPT / Codex</desc>
+<desc id="desc">全栈构建：从界面交互到服务端逻辑，关注端到端体验与实现质量；架构思考：先理清边界与约束，再权衡复杂度、可靠性与维护成本；工程落地：关注构建、部署与运行链路，让每次迭代都可验证、可维护；技术深挖：不止关注技术如何使用，也乐于探索底层机制与不同方案的取舍。技术选择：BACKEND：Java / Spring Boot / PostgreSQL；FRONTEND：Vue / shadcn；INFRASTRUCTURE：Kubernetes / Docker；AI TOOLS：ChatGPT / Codex</desc>
 <defs><style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",monospace}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.2s step-end infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style></defs>
 <rect x="0.5" y="0.5" width="419" height="859" rx="18" fill="#0d1117" stroke="#283341" />
 <text x="24" y="37" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">FOCUS &amp; PRACTICE</text>
 <rect x="24" y="59" width="372" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="40" y="84" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >01</text>
-<text x="380" y="84" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">界面与交互</text>
-<text x="40" y="112" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >前端开发</text>
-<text x="40" y="137" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >关注清晰的界面与自然的交互，</text>
-<text x="40" y="158" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >重视响应式布局、性能和使用体验。</text>
+<text x="380" y="84" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">体验与实现</text>
+<text x="40" y="112" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >全栈构建</text>
+<text x="40" y="137" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >从界面交互到服务端逻辑，</text>
+<text x="40" y="158" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >关注端到端体验与实现质量。</text>
 <rect x="24" y="194" width="372" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="40" y="219" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >02</text>
-<text x="380" y="219" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">接口与数据</text>
-<text x="40" y="247" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >后端开发</text>
-<text x="40" y="272" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >围绕接口、数据与服务组织代码，</text>
-<text x="40" y="293" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >兼顾稳定性、扩展性和可维护性。</text>
+<text x="380" y="219" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">简洁与取舍</text>
+<text x="40" y="247" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >架构思考</text>
+<text x="40" y="272" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >先理清边界与约束，</text>
+<text x="40" y="293" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >再权衡复杂度、可靠性与维护成本。</text>
 <rect x="24" y="329" width="372" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="40" y="354" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >03</text>
-<text x="380" y="354" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">质量与交付</text>
-<text x="40" y="382" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >工程实践</text>
-<text x="40" y="407" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >重视代码结构、版本管理与自动化，</text>
-<text x="40" y="428" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >让开发、部署和维护更顺畅。</text>
+<text x="380" y="354" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">可靠与交付</text>
+<text x="40" y="382" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >工程落地</text>
+<text x="40" y="407" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >关注构建、部署与运行链路，</text>
+<text x="40" y="428" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >让每次迭代都可验证、可维护。</text>
 <rect x="24" y="464" width="372" height="120" rx="10" fill="#121923" stroke="none" />
 <text x="40" y="489" class="mono" font-size="10.5" font-weight="400" fill="#7dd3fc" >04</text>
-<text x="380" y="489" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">探索与实践</text>
-<text x="40" y="517" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >持续学习</text>
-<text x="40" y="542" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >保持对新技术与开发工具的好奇，</text>
-<text x="40" y="563" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >在实践中验证，持续改进工作方式。</text>
+<text x="380" y="489" class="sans" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">原理与实践</text>
+<text x="40" y="517" class="sans" font-size="16" font-weight="600" fill="#e6edf3" >技术深挖</text>
+<text x="40" y="542" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >不止关注技术如何使用，</text>
+<text x="40" y="563" class="sans" font-size="13" font-weight="400" fill="#9aaabd" >也乐于探索底层机制与不同方案的取舍。</text>
 <path d="M24 595H396" fill="none" stroke="#283341"/>
 <text x="24" y="617" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">BACKEND</text>
 <rect x="24" y="629" width="48" height="25" rx="12.5" fill="#192331" stroke="#283341" />

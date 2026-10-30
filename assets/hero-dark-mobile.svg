@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="455" viewBox="0 0 420 455" role="img" aria-labelledby="title desc">
 <title id="title">Why.Ping (oiOxOio) · 全栈开发</title>
-<desc id="desc">把想法写成代码，让体验持续变好。前端开发 · 后端开发 · 工程实践 · 持续学习</desc>
+<desc id="desc">把想法写成代码，让体验持续变好。</desc>
 <defs><style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",monospace}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.2s step-end infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="0.7" fill="#253342"/></pattern><linearGradient id="accent"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient></defs>
 <rect x="0.5" y="0.5" width="419" height="454" rx="18" fill="#0d1117" stroke="#283341" />
 <rect x="1" y="1" width="99.7%" height="99.3%" rx="18" fill="url(#dots)"/>
