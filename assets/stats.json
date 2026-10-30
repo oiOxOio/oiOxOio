@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "username": "oiOxOio",
+  "updated_at": "2026-10-30T11:18:02Z",
+  "source": "GitHub REST API",
+  "scope": {
+    "repositories": "Owned public non-fork repositories, including the profile repository",
+    "stars": "Sum of stars on owned public non-fork repositories",
+    "pull_requests": "All-time authored public pull requests across GitHub",
+    "merged_pull_requests": "All-time authored public pull requests that were merged",
+    "languages": "GitHub Linguist byte counts across owned public non-fork repositories"
+  },
+  "repositories": 7,
+  "stars": 12,
+  "pull_requests": 9,
+  "merged_pull_requests": 8,
+  "languages_status": "pending_refresh",
+  "languages": [],
+  "projects": [
+    {
+      "name": "Smart-Album",
+      "url": "https://github.com/oiOxOio/Smart-Album",
+      "description": "第十届中国软件杯大赛 A5-云端智能相册应用 实现了照片的批量上传、下载和展示  照片类别的自动识别与归类 基于人脸的自动检索与聚合 精彩时刻的自动化剪辑",
+      "language": "JavaScript",
+      "stars": 11
+    },
+    {
+      "name": "shop",
+      "url": "https://github.com/oiOxOio/shop",
+      "description": "SpringBoot+Bootstrap项目，并整合thymeleaf进行页面渲染，实现了邮箱登录，商品搜索，商品筛选与分页，用户权限，收藏夹/购物车，使用支付宝购买商品，商家后台等功能",
+      "language": "CSS",
+      "stars": 1
+    },
+    {
+      "name": "codex-plugins",
+      "url": "https://github.com/oiOxOio/codex-plugins",
+      "description": "Why.Ping 的 Codex 插件集合与远程插件市场。",
+      "language": "JavaScript",
+      "stars": 0
+    },
+    {
+      "name": "merry-christmas",
+      "url": "https://github.com/oiOxOio/merry-christmas",
+      "description": "圣诞快乐",
+      "language": "HTML",
+      "stars": 0
+    },
+    {
+      "name": "museum",
+      "url": "https://github.com/oiOxOio/museum",
+      "description": "亚历山大美术馆",
+      "language": "HTML",
+      "stars": 0
+    },
+    {
+      "name": "oiOxOio",
+      "url": "https://github.com/oiOxOio/oiOxOio",
+      "description": "",
+      "language": null,
+      "stars": 0
+    },
+    {
+      "name": "simplelogin",
+      "url": "https://github.com/oiOxOio/simplelogin",
+      "description": "一款简约的登录界面",
+      "language": "CSS",
+      "stars": 0
+    }
+  ]
+}

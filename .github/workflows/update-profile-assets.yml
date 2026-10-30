@@ -9,8 +9,9 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/update-profile-assets.yml"
-      - ".github/scripts/update_profile_assets.py"
       - "README.md"
+      - "profile.json"
+      - "scripts/**"
 
 permissions:
   contents: write
@@ -21,23 +22,17 @@ concurrency:
 
 jobs:
   generate:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      PROFILE_USER: ${{ github.repository_owner }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
+      - name: Checkout main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           ref: main
-
-      - name: Cache the coding animation
-        shell: bash
-        run: |
-          mkdir -p resource
-          if [[ ! -f resource/coding.gif ]]; then
-            curl --fail --location --retry 3 --max-time 60 \
-              --output resource/coding.gif \
-              "https://raw.githubusercontent.com/sun0225SUN/sun0225SUN/0932267e63de9865b2bd9af9a1fee517e72c297e/assets/images/coding.gif"
-          fi
+          fetch-depth: 0
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
@@ -48,31 +43,58 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate GitHub statistics
-        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f # release
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          UTC_OFFSET: 8
-          THEME: github
-          AUTO_PUSH: false
+      - name: Fetch public GitHub statistics
+        run: python scripts/fetch_stats.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate and stage fresh cards
-        run: python .github/scripts/update_profile_assets.py
-        env:
-          PROFILE_USER: ${{ github.repository_owner }}
+      - name: Render light and dark profile cards
+        run: python scripts/build_profile.py
+
+      - name: Validate generated cards
+        run: python scripts/build_profile.py --check
 
       - name: Commit updated profile assets
         shell: bash
         run: |
+          set -euo pipefail
+          generated_from=$(git rev-parse HEAD)
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- resource/coding.gif resource/github-contribution-grid-snake.svg resource/profile-summary
+          git add -- assets/ resource/github-contribution-grid-snake.svg
           if git diff --cached --quiet; then
             echo "The profile assets are already up to date."
             exit 0
           fi
           git commit -m "chore: update profile assets"
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          # Retry normal pushes after unrelated main-branch edits. Never force-push
+          # or overwrite a concurrent change to the inputs or generated assets.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git fetch --no-tags origin main
+            # A lost response may hide an already successful push.
+            if git merge-base --is-ancestor HEAD origin/main; then
+              exit 0
+            fi
+            if ! git diff --quiet "$generated_from"...origin/main -- \
+                README.md profile.json scripts/ assets/ \
+                resource/github-contribution-grid-snake.svg \
+                .github/workflows/update-profile-assets.yml; then
+              echo "::error::Profile inputs or assets changed during generation. Run this workflow again to use the latest version."
+              exit 1
+            fi
+            if [[ "$attempt" -eq 3 ]]; then
+              echo "::error::Could not push profile assets after three attempts."
+              exit 1
+            fi
+            if ! git rebase origin/main; then
+              git rebase --abort
+              echo "::error::Concurrent edits prevented a clean rebase; existing remote content was preserved."
+              exit 1
+            fi
+            python scripts/build_profile.py --check
+            sleep "$((attempt * 2))"
+          done

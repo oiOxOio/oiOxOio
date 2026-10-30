@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="455" viewBox="0 0 420 455" role="img" aria-labelledby="title desc">
+<title id="title">oiOxOio · 全栈开发</title>
+<desc id="desc">把复杂业务做清楚，把想法做成能用的产品。业务系统 · 制造业数字化 · Web 3D · 开发工具</desc>
+<defs><style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",monospace}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.2s step-end infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="0.7" fill="#253342"/></pattern><linearGradient id="accent"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="419" height="454" rx="18" fill="#0d1117" stroke="#283341" />
+<rect x="1" y="1" width="99.7%" height="99.3%" rx="18" fill="url(#dots)"/>
+<text x="26" y="45" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">HELLO, I&#x27;M</text>
+<text x="26" y="95" class="sans" font-size="44" font-weight="700" fill="#e6edf3" >oiOxOio</text>
+<text x="254" y="94" class="mono" font-size="12" font-weight="400" fill="#9aaabd" >Why.Ping</text>
+<rect x="26" y="109" width="65" height="3" rx="1.5" fill="url(#accent)" stroke="none" />
+<text x="26" y="144" class="sans" font-size="21" font-weight="600" fill="#e6edf3" >Full-stack Developer</text>
+<text x="26" y="175" class="sans" font-size="14" font-weight="400" fill="#9aaabd" >把复杂业务做清楚，把想法做成能用的产品。</text>
+<rect x="26" y="194" width="48" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="37" y="210.175" class="mono" font-size="10.5" font-weight="400" fill="#9aaabd" >Java</text>
+<rect x="82" y="194" width="94" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="93" y="210.175" class="mono" font-size="10.5" font-weight="400" fill="#9aaabd" >Spring Boot</text>
+<rect x="184" y="194" width="87" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="195" y="210.175" class="mono" font-size="10.5" font-weight="400" fill="#9aaabd" >PostgreSQL</text>
+<rect x="279" y="194" width="74" height="25" rx="12.5" fill="#192331" stroke="#283341" />
+<text x="290" y="210.175" class="mono" font-size="10.5" font-weight="400" fill="#9aaabd" >Three.js</text>
+<rect x="26" y="245" width="368" height="183" rx="13" fill="#121923" stroke="#283341" />
+<circle cx="45" cy="265" r="4.2" fill="#ff6058"/>
+<circle cx="60" cy="265" r="4.2" fill="#febc2e"/>
+<circle cx="75" cy="265" r="4.2" fill="#28c840"/>
+<text x="377" y="269" class="mono" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">~/oiOxOio</text>
+<text x="48" y="296" class="mono" font-size="12.2" font-weight="400" fill="#7dd3fc" >$ whoami</text>
+<text x="48" y="317" class="mono" font-size="12.2" font-weight="400" fill="#e6edf3" >  full-stack developer</text>
+<text x="48" y="338" class="mono" font-size="12.2" font-weight="400" fill="#7dd3fc" >$ cat focus.txt</text>
+<text x="48" y="359" class="mono" font-size="12.2" font-weight="400" fill="#9aaabd" >  rules / data / web 3d</text>
+<text x="48" y="380" class="mono" font-size="12.2" font-weight="400" fill="#7dd3fc" >$ status</text>
+<text x="48" y="401" class="mono" font-size="12.2" font-weight="400" fill="#9aaabd" >  building + learning</text>
+<rect x="207" y="391" width="7" height="13" rx="0" fill="#7dd3fc" stroke="none" class="cursor"/>
+</svg>
