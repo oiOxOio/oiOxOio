@@ -82,7 +82,7 @@ def pills(items, x, y, p, size=11, height=25):
 
 
 def hero(profile, p, mobile=False):
-    width, height = (420, 455) if mobile else (880, 298)
+    width, height = (420, 455) if mobile else (880, 274)
     x = 26 if mobile else 36
     body = ['<rect x="1" y="1" width="99.7%" height="99.3%" rx="18" fill="url(#dots)"/>']
     body += [label(x, 45 if mobile else 51, "HELLO, I'M", p),
@@ -91,10 +91,8 @@ def hero(profile, p, mobile=False):
              rect(x, 109 if mobile else 128, 65, 3, "url(#accent)", radius=1.5),
              text(x, 144 if mobile else 166, profile["role"], 21, p["text"], 600),
              text(x, 175 if mobile else 197, profile["tagline"], 14 if mobile else 15, p["muted"])]
-    if not mobile:
-        body.append(text(x, 224, profile["intro"], 12.5, p["quiet"]))
-    body += pills(profile["hero_tags"], x, 194 if mobile else 246, p, 10.5 if mobile else 11)
-    tx, ty, tw, th = (26, 245, 368, 183) if mobile else (524, 39, 320, 220)
+    body += pills(profile["hero_tags"], x, 194 if mobile else 218, p, 10.5 if mobile else 11)
+    tx, ty, tw, th = (26, 245, 368, 183) if mobile else (524, 27, 320, 220)
     body += [rect(tx, ty, tw, th, p["panel"], p["border"], 13)]
     for i, color in enumerate(["#ff6058", "#febc2e", "#28c840"]):
         body.append(f'<circle cx="{tx+19+15*i}" cy="{ty+20}" r="4.2" fill="{color}"/>')
@@ -110,7 +108,7 @@ def hero(profile, p, mobile=False):
             f'<circle cx="10" cy="10" r="0.7" fill="{p["grid"]}"/></pattern>'
             f'<linearGradient id="accent"><stop stop-color="{p["accent"]}"/>'
             f'<stop offset="1" stop-color="{p["purple"]}"/></linearGradient>')
-    return document(width, height, profile["display_name"]+" ("+profile["username"]+") · 全栈开发", profile["tagline"]+profile["intro"], body, p, defs)
+    return document(width, height, profile["display_name"]+" ("+profile["username"]+") · 全栈开发", profile["tagline"], body, p, defs)
 
 
 def skills(profile, p, mobile=False):
@@ -141,7 +139,7 @@ def skills(profile, p, mobile=False):
         else:
             body.append(label(margin, gy+10, group["label"], p))
             body += pills(group["items"], 187, gy-7, p, 11)
-    description = "；".join(f["title"]+"："+"".join(f["lines"]) for f in profile["focus"])
+    description = "；".join(f["title"]+"："+"".join(f["lines"]).rstrip("。") for f in profile["focus"])
     description += "。技术选择："+"；".join(group["label"]+"："+" / ".join(group["items"]) for group in profile["stack"])
     return document(width, height, "技术方向与开发习惯", description, body, p)
 

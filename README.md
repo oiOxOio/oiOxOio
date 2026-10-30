@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-dark-mobile.svg?v=20261030-4">
-  <source media="(max-width: 600px)" srcset="./assets/hero-light-mobile.svg?v=20261030-4">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg?v=20261030-4">
-  <img src="./assets/hero-light.svg?v=20261030-4" width="100%" alt="Why.Ping（GitHub：oiOxOio），全栈开发。把想法写成代码，让体验持续变好。关注前端开发、后端开发、工程实践与持续学习。">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero-dark-mobile.svg?v=20261030-5">
+  <source media="(max-width: 600px)" srcset="./assets/hero-light-mobile.svg?v=20261030-5">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg?v=20261030-5">
+  <img src="./assets/hero-light.svg?v=20261030-5" width="100%" alt="Why.Ping（GitHub：oiOxOio），全栈开发。把想法写成代码，让体验持续变好。">
 </picture>
 
 <p align="center">
@@ -12,10 +12,10 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/skills-dark-mobile.svg?v=20261030-4">
-  <source media="(max-width: 600px)" srcset="./assets/skills-light-mobile.svg?v=20261030-4">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg?v=20261030-4">
-  <img src="./assets/skills-light.svg?v=20261030-4" width="100%" alt="技术方向与开发习惯。后端：Java、Spring Boot、PostgreSQL；前端：Vue、shadcn；基础设施：Kubernetes、Docker；AI 工具：ChatGPT、Codex。">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/skills-dark-mobile.svg?v=20261030-5">
+  <source media="(max-width: 600px)" srcset="./assets/skills-light-mobile.svg?v=20261030-5">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg?v=20261030-5">
+  <img src="./assets/skills-light.svg?v=20261030-5" width="100%" alt="全栈构建、架构思考、工程落地与技术深挖。后端：Java、Spring Boot、PostgreSQL；前端：Vue、shadcn；基础设施：Kubernetes、Docker；AI 工具：ChatGPT、Codex。">
 </picture>
 
 <picture>
@@ -29,4 +29,3 @@
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=20261030-2">
   <img src="./assets/stats-light.svg?v=20261030-2" width="100%" alt="GitHub 公开数据统计：个人公开非 Fork 仓库、获得的 Stars、累计公开 PR 与已合并 PR。私有项目不计入统计。">
 </picture>
-
