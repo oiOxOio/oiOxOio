@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="350" viewBox="0 0 880 350" role="img" aria-labelledby="title desc">
 <title id="title">GitHub 公开数据</title>
-<desc id="desc">公开非 Fork 仓库 7 个，获得 12 Stars，累计创建公开 PR 9 个，其中 8 个已合并。快照日期 2026-10-30，私有项目不计入统计。</desc>
+<desc id="desc">公开非 Fork 仓库 7 个，获得 12 Stars，累计创建公开 PR 9 个，其中 8 个已合并。快照日期 2026-10-31，私有项目不计入统计。</desc>
 <defs><style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",monospace}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}.cursor{animation:blink 1.2s step-end infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style></defs>
 <rect x="0.5" y="0.5" width="879" height="349" rx="18" fill="#0d1117" stroke="#283341" />
 <text x="32" y="40" class="mono" font-size="11" font-weight="400" fill="#7dd3fc" letter-spacing="1.4">GITHUB / PUBLIC SNAPSHOT</text>
-<text x="848" y="40" class="mono" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">2026-10-30</text>
+<text x="848" y="40" class="mono" font-size="10.5" font-weight="400" fill="#7d8da1" text-anchor="end">2026-10-31</text>
 <rect x="32" y="64" width="192" height="104" rx="10" fill="#121923" stroke="none" />
 <text x="48" y="103" class="sans" font-size="30" font-weight="650" fill="#7dd3fc" >7</text>
 <text x="48" y="128" class="sans" font-size="13" font-weight="400" fill="#e6edf3" >公开仓库</text>
