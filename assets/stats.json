@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "username": "oiOxOio",
-  "updated_at": "2026-11-01T03:15:08Z",
+  "updated_at": "2026-11-01T14:37:01Z",
   "source": "GitHub REST API",
   "scope": {
     "repositories": "Owned public non-fork repositories, including the profile repository",
@@ -12,8 +12,8 @@
   },
   "repositories": 7,
   "stars": 12,
-  "pull_requests": 9,
-  "merged_pull_requests": 8,
+  "pull_requests": 11,
+  "merged_pull_requests": 9,
   "languages_status": "complete",
   "languages": [
     {
